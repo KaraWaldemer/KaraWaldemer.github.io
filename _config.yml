@@ -1,0 +1,28 @@
+---
+title: The Ginger Techie
+email: kara.wolter@gmail.com
+author: Kara Wolter
+author_github: KaraWolter
+description: |
+  A blog where I talk about the technologies I am using and whatever else I feel like.
+baseurl: "/"
+url: http://www.thegingertechie.com
+paginate: 12
+github:
+  user: KaraWolter
+  repository: KaraWolter.github.io
+  url: http://www.thegingertechie.com
+  status: true
+home_bgfile: bg.jpg
+sass:
+  sass_dir: assets/css
+  style: compressed
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+gems:
+- jekyll-paginate
+exclude:
+- vendor
