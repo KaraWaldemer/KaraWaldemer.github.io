@@ -33,7 +33,7 @@ draft: false
           <li class="collection-header">
             <div>
               <a class="post-link teal-text post-title" href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>
-              <div class="right post-meta secondary-content post-date">{{ post.date | date: "%-d de %b de %Y" }}</div>
+              <div class="right post-meta secondary-content post-date">{{ post.date | date_to_long_string }}</div>
             </div>
           </li>
           <li class="collection-item"><span class="post-description flow-text" style="font-size:15px">{{ post.description }}</span></li>
