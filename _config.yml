@@ -4,7 +4,7 @@ email: kara.wolter@gmail.com
 author: Kara Wolter
 author_github: KaraWolter
 description: |
-  A blog where I talk about the technologies 
+  A blog where I talk about the technologies \n
   I am using and whatever else I feel like.
 baseurl: "/"
 url: http://thegingertechie.com
