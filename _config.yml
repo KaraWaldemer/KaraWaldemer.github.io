@@ -14,6 +14,7 @@ github:
   repository: KaraWolter.github.io
   url: http://thegingertechie.com
   status: true
+  avatar: https://avatars1.githubusercontent.com/u/5532043?v=3&u=00d95a0d6b01d35811383ee28b140a142cb98400&s=400
 home_bgfile: home.png
 sass:
   sass_dir: assets/css
