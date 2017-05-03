@@ -6,12 +6,13 @@ author_github: KaraWolter
 description: |
   A blog where I talk about the technology and anything else I'm interested in.
 baseurl: "/"
+permalink: ":title"
 url: http://thegingertechie.com
 paginate: 12
 github:
   user: KaraWolter
   repository: KaraWolter.github.io
-  url: http://thegingertechie.com/
+  url: http://thegingertechie.com
   status: true
 home_bgfile: home.png
 sass:
