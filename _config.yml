@@ -8,7 +8,7 @@ description: |
 baseurl: "/"
 url: http://thegingertechie.com
 paginate: 12
-github:``
+github:
   user: KaraWolter
   repository: KaraWolter.github.io
   url: http://thegingertechie.com/
