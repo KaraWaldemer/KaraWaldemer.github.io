@@ -9,6 +9,14 @@ $teal: #009688;
   padding: 0;
 }
 
+ul li{
+  list-style-type: circle !important;
+}
+
+ul{
+  padding-left:25px !important;
+}
+
 nav {
     -webkit-box-shadow: none;
     box-shadow: none;
