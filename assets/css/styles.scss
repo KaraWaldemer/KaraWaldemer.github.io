@@ -9,6 +9,11 @@ $teal: #009688;
   padding: 0;
 }
 
+.post .container {
+  max-width: none !important;
+  width: 80% !important;
+}
+
 .post-content ul li{
   list-style-type: circle !important;
 }
