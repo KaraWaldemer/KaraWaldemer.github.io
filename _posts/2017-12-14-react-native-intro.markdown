@@ -16,7 +16,7 @@ React Native is a cross-platform solution to writing native mobile applications.
 
 #### What makes React Native Different
 
-There are already solutions to create apps for mobile devices, from writing native code in proprietary languages to writing "mobile web apps" or hybrid solutions. So why do developers need another? Why should they give React Native the time of day?
+There are already solutions to create apps for mobile devices: from writing native code in proprietary languages to writing "mobile web apps" or hybrid solutions. So why do developers need another? Why should they give React Native the time of day?
 
 Unlike other options available React Native allows developers to write native applications on both iOS and Android using JavaScript with React in a single codebase. It takes the same design principles used by React in the web and lets you write mobile UIs using the familiar component model. In addition, unlike other options that let you use web technologies to create hybrid applications, React Native runs on the device using the same fundamental building blocks used by the platform specific solutions making it a more seamless experience for users.
 
