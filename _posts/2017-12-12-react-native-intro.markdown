@@ -13,61 +13,62 @@ draft: false
 React Native is a cross-platform solution to writing native mobile applications. Facebook open sourced React Native in March 2015. Facebook built it because, like many companies, they needed to make their product available in the web as well as on various mobile platforms and it was a struggle to maintain the specialized teams needed build the different deployables. After trying a number of different techniques, React Native was Facebook's solution to the problem.
 
 
+
 #### What makes React Native Different
 
 There are already solutions to create apps for mobile devices, from writing native code in proprietary languages to writing "mobile web apps" or hybrid solutions. So why do developers need another? Why should they give React Native the time of day?
 
-Unlike other options available React Native allows developers to write native applications on both iOS and Android using JavaScript and a single codebase. It takes the same design principles used by React in the web and lets you write mobile UIs using the familiar component model. In addition, unlike other options that let you use web technologies to create hybrid applications, React Native runs on the device using the same fundamental building blocks used by the platform specific solutions making it a more seamless experience for users. 
+Unlike other options available React Native allows developers to write native applications on both iOS and Android using JavaScript and a single codebase. It takes the same design principles used by React in the web and lets you write mobile UIs using the familiar component model. In addition, unlike other options that let you use web technologies to create hybrid applications, React Native runs on the device using the same fundamental building blocks used by the platform specific solutions making it a more seamless experience for users.
 
-<!-- Notes:
-React Native lets you build mobile apps using only JavaScript. It uses the same design as React, letting you compose a rich mobile UI from declarative components.
-
-With React Native, you don't build a "mobile web app", an "HTML5 app", or a "hybrid app". You build a real mobile app that's indistinguishable from an app built using Objective-C or Java. React Native uses the same fundamental UI building blocks as regular iOS and Android apps. You just put those building blocks together using JavaScript and React.
-
-React Native lets you build your app faster. Instead of recompiling, you can reload your app instantly. With Hot Reloading, you can even run new code while retaining your application state. Give it a try - it's a magical experience.
-
-React Native combines smoothly with components written in Objective-C, Java, or Swift. It's simple to drop down to native code if you need to optimize a few aspects of your application. It's also easy to build part of your app in React Native, and part of your app using native code directly - that's how the Facebook app works. -->
 
 
 #### What it does well
 
-React Native has done a lot of maturing over the last few years and offers a lot of benefits when writing mobile applications
+There are a number of benefits to developing with React Native over other mobile solutions.
+
 
 
 ##### One Codebase
 
-No need to make changes in multiple places to make sure each platform has all features
+One of the nicest features of React Native is that you can write a mobile app that runs natively on both iOS and Android using a single codebase and largely in a single language. Developers can write a single React component using the building blocks provided by React Native and they will run on  different devices using their platforms unique components behind the scenes. The React code that developers build runs on an embedded instance of JavaScriptCore on the device. From there React Native is able to make calls to the native APIs to create the native version of the component. This allows developers to write code once and have it run using the native components and styling on both platforms.
+
+###### Native Components
 
 <img src="../assets/images/reactNativeIntro/reactNativeiOS1.gif" alt="iOS Inputs" height="500">
 <img src="../assets/images/reactNativeIntro/reactNativeAndroid1.gif" alt="iOS Inputs" height="500">
 
-Notes:
-Single codebase for both mobile environments with the majority of the code shared.
-Helps avoid cases of one platform getting features before another if the other gets it at all.
+
+There are cases, however, where you might not want to rely on the native styling and you want a more unified look across platforms. In that case, React Native allows you to write style sheets where you can overwrite the defaults.
+
 
 
 ##### Integration with native components
 
-It is entirely possible to utilize iOS and Android native components and code
+There are instances where, for one reason or another, a developer will need to make use of native components when writing mobile apps. Whether you want to reuse an existing library written in a proprietary language or React Native simply does not provide a solution that works for your use case, you are likely going to run into a case where native code is required. Developers at Facebook had that issue as well and built a solution to it into React Native.
+
+React Native allows developers to create JavaScript wrappers which act as bridges to make native libraries and code available for use in the JavaScript code.
+
+###### Native hardware
 
 <img src="../assets/images/reactNativeIntro/reactNativeiOS2.gif" alt="iOS Inputs" height="500">
 <img src="../assets/images/reactNativeIntro/reactNativeAndroid2.gif" alt="iOS Inputs" height="500">
 
-Notes:
-Particularly helpful if there is an existing component you want to use on one of the platforms. React Native can just call it and write a separate file for the other platform using one of its native components or a React Native one.
+
+This is a really helpful tool to make available to developers. A thing to remember is that this works on a platform by platform basis. You would have to develop native functionality for each platform in order to make this work properly.
 
 
 ##### Hot Reloading
 
-One of the biggest frustrations of mobile development is constant recompiling
+If you have ever done mobile development, one of the biggest frustrations you have probably faced is constant recompiling. Whenever you make a change to any code or change where a UI element is located, you have to wait for the project to completely recompile before you can check your changes.
 
-React Native fixes that issue
+React Native fixes this issue. It takes the ability to hot reload that all web developers are familiar with and makes it available on the mobile simulators and emulators. So now with the click of a few keys, developers are able to view their changes as they make them.
+
+###### Hot reload
 
 <img src="../assets/images/reactNativeIntro/reactNativeiOS3.gif" alt="iOS Inputs" height="500">
 <img src="../assets/images/reactNativeIntro/reactNativeAndroid3.gif" alt="iOS Inputs" height="500">
 
-Notes:
-Just like you can do when using React to develop in the web, when you make a change, you only need to refresh the simulator/emulator to see the change reflected. However, if you change any of the native configurations or code, you will have to recompile. Since most of your code is written in JavaScript this is usually a much less painful process than purely native solutions.
+An important thing to keep in mind though is that if you change any of the native configurations or code, you will have to recompile. Since most of your code can be written in JavaScript this is usually a much less painful process than when writing a purely native solution.
 
 
 
