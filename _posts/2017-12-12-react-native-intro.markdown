@@ -76,33 +76,30 @@ An important thing to keep in mind though is that if you change any of the nativ
 
 As with most technologies that make developers lives easier, React Native is not without its pitfalls
 
-Notes:
-It is both a positive and a negative that you are using JS & React. It feels familiar and the learning curve is smaller but it is easy to write 'web' code to run natively and that does not always provide the best mobile user experiences.
 
 
 ##### Performance
 
-Communication between the API controlling the underlying hardware and the JavaScript on the virtual machine is the crux of the problem
+The biggest complaint I have seen from developers about React Native is that there can be some real performance issues when developing with it. Facebook has made a lot of progress in improving the performance but it is still something to keep in mind when exploring options.
 
-Notes:
-Animations in particular require a lot of communication, slowing the application down.
-Additionally, Android seems to run slower by default.
+The crux of the issue boils down to the communication between the APIs controlling the underlying hardware and the JavaScript running on JavaScriptCore. This comes with some overhead because it needs to cross the thread boundary. The more times you have to make that journey, the more overhead is incurred.
 
-The second reason this is tough is that there's some fixed amount of overhead associated with every round trip between the native environment and the JavaScript virtual machine. If we need to cross the thread boundary often, we'll have to incur this overhead over and over again.
-
-Since React components are just pure, side-effect-free functions that return what our views look like at any point in time, we never need to read from our underlying rendered view implementation in order to write to it. In the browser environment, React is non-blocking with respect to the DOM, but the beauty of React is that it is abstract and not tightly coupled to the DOM. React can wrap any imperative view system, like UIKit on iOS, for example.
-
-One of the best parts about this approach is that we can adopt it incrementally, building new products on top of it or converting old products to use it whenever and wherever it makes sense.
+Since it is built using React, changes can be made in the virtual DOM and only sent to the native API for rendering when all changes are complete. The problem of over communication is largely mitigated through this model. However, there are still cases where more frequent calls become necessary. In particular, animations are a costly action as they requires constant back and forth communication to make the incremental changes needed in the view. Facebook has recently released a major update to how React Native handles animations which makes this process much less painful. However, it is still important to note that you will likely see performance issues in apps that use a lot of animation.
 
 
 ##### Maturity
 
-React Native is a fairly young technology. It has seen a lot of growth since then, and there are many libraries to pick from, but they too are not that old
+As we have seen, React Native is a fairly young technology and while it has seen a lot of growth since its initial release, its "youth" can still cause developers grief. The components provided by Facebook are fairly good and they utilize the underlying native building blocks well. There are still fewer options available than many developers would like. I have found many third party libraries that have tried to fill in some of these gaps, and some of them are really well done, but others could use a lot of work. With its relative youth in mind, it is important to note that you will quite likely need to fall back on writing some native code to achieve the full functionality you want.
 
-Notes:
-The progress made in the last two years has made React Native a good contender when writing a mobile solution but the reliability and availability of some of the functionality mobile developers have come to expect is still questionable at times. You may have to develop your own wrappers on top of native code to achieve the results you want but React Native makes it easy to do that and easy to swap it for a different solution later as needed.
+
+
+##### Usability
+
+I have found that it is both a positive and a negative that React Native allows developers to write mobile apps in JavaScript with familiar React concepts. On the one hand, as a web developer, the learning curve for me to get in to it and get started was a lot smaller than if I had to learn both iOS and Android development separately. On the other hand, I found that it was really easy to fall back into old habits and write "web" code to run natively. What looks good and provides the best experience in the web does not always transfer to a mobile experience. I have found that I have to remind myself of this when I am creating and styling my components. It is also important to thoroughly review any third party libraries I plan to use to make sure their user experience is appropriate.
 
 
 #### Conclusion
 
-React Native has a lot of potential but also a lot of room to grow.
+Overall, I have been really excited by my experiences working with React Native. It has come a long way since its first release over two years ago and it certainly has a lot of room to grow. React Native has made the jump from web to mobile development much less painful than it could have been and I am looking forward to following it further.
+
+For a glimpse into what React Native code looks like, head over to my [GitHub](https://github.com/KaraWaldemer) and check out my [demo project](https://github.com/KaraWaldemer/reactNativeDemo).
