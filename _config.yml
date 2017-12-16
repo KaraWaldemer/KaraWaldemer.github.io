@@ -9,6 +9,9 @@ baseurl: "/"
 permalink: ":slug"
 url: https://thegingertechie.com
 paginate: 12
+collections:
+  projects:
+    output: true
 github:
   user: KaraWolter
   repository: KaraWolter.github.io
