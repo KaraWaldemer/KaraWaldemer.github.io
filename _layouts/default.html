@@ -26,7 +26,7 @@
               {{ site.description }}
             {% endif %}">
       <meta property="og:type" content="article">
-      <meta property="og:image" content="{% if page.image %}{{page.image}}{% else %}{{../assets/images/title.ico}}{% endif %}" />
+      <meta property="og:image:secure_url" content="{% if page.image %}{{page.image}}{% else %}{{../assets/images/title.ico}}{% endif %}" />
       <meta property="og:url" content="{% if page.url %}{{page.url}}{% else %}{{https://thegingertechie.com}}{% endif %}" >
       <title>The Ginger Techie</title>
       <link rel="shortcut icon" href="../assets/images/title.ico" />
