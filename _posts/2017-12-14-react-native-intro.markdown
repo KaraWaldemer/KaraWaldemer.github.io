@@ -8,7 +8,7 @@ description: What is React Native and how does it affect a developers day.
 slug: react-native-intro
 tags: [mobile, react native, react, ios, android, mobile app]
 draft: false
-image: '../assets/reactNativeIntro/IntroToReactNative.png'
+image: 'https://thegingertechie.com/assets/reactNativeIntro/IntroToReactNative.png'
 ---
 
 React Native is a cross-platform solution to writing native mobile applications. Facebook open sourced React Native in March 2015. They built it because, like many companies, Facebook needed to make their product available in the web as well as on various mobile platforms and it was a struggle to maintain the specialized teams needed to build the different deployables. After trying a number of different techniques, React Native was Facebook's solution to the problem.
