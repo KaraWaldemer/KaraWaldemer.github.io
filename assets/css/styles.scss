@@ -36,6 +36,14 @@ section {
     }
 }
 
+.container {
+  .project-page {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
 .markdown-file {
     .author {
         color: $teal;
