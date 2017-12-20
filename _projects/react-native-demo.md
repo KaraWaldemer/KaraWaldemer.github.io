@@ -9,6 +9,7 @@ description: A project demonstrating the basics of writing mobile apps in React 
 # React Native Demo Project
 
 
+
 1. [Getting Started](#getting-started)
     1. [React Native CLI](#react-native-cli)
     2. [Setting up iOS](#setting-up-ios)
@@ -17,6 +18,8 @@ description: A project demonstrating the basics of writing mobile apps in React 
 
 
 ## <a id="getting-started"></a>Getting Started
+
+This walkthrough will cover the basics of getting started with React Native as well as stepping through a demo project to show examples of code. The full repository of code is available [here](https://github.com/KaraWaldemer/reactNativeDemo) for your convenience.
 
 React Native requires that you have Node and NPM installed and configured. This guide will assume that you have already completed that step and have a basic understanding of both Node and React. If you need a refresher, please check out the documentation for [Node](https://nodejs.org/en/) and [React](https://reactjs.org/). For a presentation on the basics of React Native, please go [here](https://thegingertechie.com/reactNativeDemo).
 
