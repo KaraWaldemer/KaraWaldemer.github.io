@@ -28,7 +28,7 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 google_analytics: 'UA-98468743-1'
-gems:
-- jekyll-paginate
+pluggins:
+  - jekyll-paginate
 exclude:
 - vendor

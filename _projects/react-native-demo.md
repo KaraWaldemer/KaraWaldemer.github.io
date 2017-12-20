@@ -9,11 +9,11 @@ description: A project demonstrating the basics of writing mobile apps in React 
 # React Native Demo Project
 
 
-  1. [Getting Started](#getting-started)
-      1. [React Native CLI](#react-native-cli)
-      2. [Setting up iOS](#setting-up-ios)
-      3. [Setting up Android](#setting-up-android)
-      4. [Reloading & Debugging](#reload-debugging)
+1. [Getting Started](#getting-started)
+    1. [React Native CLI](#react-native-cli)
+    2. [Setting up iOS](#setting-up-ios)
+    3. [Setting up Android](#setting-up-android)
+    4. [Reloading & Debugging](#reload-debugging)
 
 
 ## <a id="getting-started"></a>Getting Started
@@ -28,6 +28,7 @@ React Native CLI comes bundled with React Native or you can install it on it's o
 
     $ npm i -g react-native-cli
 
+<br />
 This now global version of the cli provides you with commands to create new React Native projects. It also ties into the local cli versions inside React Native projects and give you shortcuts for many of the basic tasks you will need to do. These include:
 
     $ react-native init <ProjectName> [options]
@@ -37,6 +38,7 @@ This now global version of the cli provides you with commands to create new Reac
     $ react-native log-android
     $ react-native bundle [options]
 
+<br />
 Behind the scenes, these commands are doing a number of different things. We will cover some of them later, but more detail can be found in React Native's documentation.
 
 
