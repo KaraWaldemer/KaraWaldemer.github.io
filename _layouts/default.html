@@ -3,7 +3,7 @@
 
     <head>
         <!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
       <!--Import css files-->
       <link rel="stylesheet" href="{{ site.github.url }}/assets/css/styles.css">
@@ -12,6 +12,23 @@
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <meta http-equiv="Content-Language" content="en">
+      <meta name="author" content="Kara Waldemer" />
+      <meta property="og:title"
+        content="{% if page.title %}
+          {{ page.title | strip_html | strip_newlines | truncate: 160 }}
+        {% else %}
+          {{ site.title }}
+        {% endif %}">
+      <meta property="og:description"
+          content="{% if page.excerpt %}
+              {{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}
+            {% else %}
+              {{ site.description }}
+            {% endif %}">
+      <meta property="og:type" content="article">
+      <meta property="og:image:secure_url" content="{% if page.image %}{{page.image}}{% else %}{{../assets/images/title.ico}}{% endif %}" />
+      <meta property="og:image:type" content="image/png" />
+      <meta property="og:url" content="{% if page.url %}{{page.url}}{% else %}{{https://thegingertechie.com}}{% endif %}" >
       <title>The Ginger Techie</title>
       <link rel="shortcut icon" href="../assets/images/title.ico" />
     </head>

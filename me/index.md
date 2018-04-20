@@ -6,7 +6,7 @@ draft: false
 ---
 ### Who am I?
 
-Hello, my name is Kara Wolter. I am a software engineer with a passion for JavaScript and writing front-ends to websites. I graduated from <a href="http://www.slu.edu" target="_blank">SLU</a> in December of 2013 with a BS in Computer Science and I have been pushing myself to grow and try new things ever since.
+Hello, my name is Kara Waldemer. I am a software engineer with a passion for JavaScript and writing front-ends to websites. I graduated from <a href="http://www.slu.edu" target="_blank">SLU</a> in December of 2013 with a BS in Computer Science and I have been pushing myself to grow and try new things ever since.
 
 <br/>
 
@@ -18,7 +18,7 @@ I am currently working at <a href="http://www.monsanto.com" target="_blank">Mons
 
 ##### Family
 
-My family is very important to me and a large portion of what I do is through the lens of making them proud and giving me the time to spend with them. In particular I would like to thank my wonderful fiancée, Jackie, for all of her love and support, even when I geek out and ramble endlessly about technology and programming.  
+My family is very important to me and a large portion of what I do is through the lens of making them proud and giving me the time to spend with them. In particular I would like to thank my wonderful wife, Jackie, for all of her love and support, even when I geek out and ramble endlessly about technology and programming.  
 
 <br/>
 <br/>
