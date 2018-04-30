@@ -1,9 +1,9 @@
 ---
 title: Mentoring and Me
-date: '2017-05-05 12:00:00'
+date: '2018-05-01 12:00:00'
 categories: []
 layout: post
-author: Kara Wolter
+author: Kara Waldemer
 description: What made me decide to take on a dedicated full time mentoring position and what I have gained professionally and personally?
 slug: mentoring-and-me
 tags: [Mentoring, Learning, Teaching, Growth]
