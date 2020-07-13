@@ -6,13 +6,13 @@ draft: false
 ---
 ### Who am I?
 
-Hello, my name is Kara Waldemer. I am a software engineer with a passion for JavaScript and writing front-ends to websites. I graduated from <a href="http://www.slu.edu" target="_blank">SLU</a> in December of 2013 with a BS in Computer Science and I have been pushing myself to grow and try new things ever since.
+Hello, my name is Kara Waldemer. I am a full stack software engineer with a passion for JavaScript and writing front-ends to websites. I graduated from <a href="http://www.slu.edu" target="_blank">SLU</a> in December of 2013 with a BS in Computer Science and I have been pushing myself to grow and try new things ever since.
 
 <br/>
 
 ##### Work
 
-I am currently working at <a href="http://www.monsanto.com" target="_blank">Monsanto</a> as a Software Developer in the Products & Engineering department. I am a full stack developer with experience solving problems in a number of different business domains using a number of different technologies. Across my current projects I am utilizing Scala & Node back-ends, React & Angular written in both CoffeeScript and ES6 on the front-end, PostgreSQL & CouchDB on the data side, and deployed to cloud-foundry in AWS. This position has given me great opportunities to grow both my technical and leadership skills. If you are interested in more of the cool things developers at Monsanto are working on, you should check out our <a href="http://engineering.monsanto.com" target="_blank">engineering blog</a>.
+I am currently working at <a href="https://ocelotconsulting.com" target="_blank">Ocelot Consulting</a> as a Senior Software Engineer. I am a full stack developer with experience solving problems in a number of different business domains using a number of different technologies. 
 
 <br/>
 
