@@ -1,12 +1,16 @@
 ---
-layout:      posts
-background:  shorterBackground
-title:       "Diversity is Key"
-subtitle:    "build the right thing, don't just build the thing right"
+layout:      post
+categories: []
+title:       "Diversity is Key: build the right thing, don't just build the thing right"
 date:        2020-07-11 11:00
 author:      "Kara Waldemer"
 headerImg:  "/assets/images/posts/code.jpg"
 description: "Why diversity is important to successful IT solutions"
+slug: diversity-is-key
+tags: [diversity, inclusion, right not just best]
+draft: false
+image: 'https://thegingertechie.com/assets/images/diversity/alexandria-gilliott-VBFbVw8kZdI-unsplash.jpg'
+url: 'https://thegingertechie.com/diversity-is-key
 ---
 
 ## Diversity: Don't just build the "best" product, build the right one
