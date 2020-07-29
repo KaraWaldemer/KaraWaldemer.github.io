@@ -1,15 +1,15 @@
 ---
-title: Introduction to React Native2
-date: '2017-12-14 01:00:00'
+title: Diversity is Key: Build the right thing, don't just build the thing right
+date: '2020-07-29 17:00:00'
 categories: []
 layout: post
 author: Kara Waldemer
-description: What is React Native and how does it affect a developers day.
-slug: react-native-intro
-tags: [mobile, react native, react, ios, android, mobile app]
+description: Why diversity is important to successful IT solutions.
+slug: diversity-is-key
+tags: [diversity, inclusion, right product]
 draft: false
-image: 'https://thegingertechie.com/assets/images/reactNativeIntro/RNShareImage.png'
-url: 'https://thegingertechie.com/react-native-intro2'
+image: 'https://thegingertechie.com/assets/images/diversity/alexandria-gilliott-VBFbVw8kZdI-unsplash.jpg'
+url: 'https://thegingertechie.com/diversity-is-key'
 ---
 
 ## Diversity: Don't just build the "best" product, build the right one
