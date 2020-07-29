@@ -1,11 +1,10 @@
 ---
-layout:      post
+title:       Diversity is Key: build the right thing, don't just build the thing right
+date:        '2020-07-11 11:00'
 categories: []
-title:       "Diversity is Key: build the right thing, don't just build the thing right"
-date:        2020-07-11 11:00
-author:      "Kara Waldemer"
-headerImg:  "/assets/images/posts/code.jpg"
-description: "Why diversity is important to successful IT solutions"
+layout:      post
+author:      Kara Waldemer
+description: Why diversity is important to successful IT solutions
 slug: diversity-is-key
 tags: [diversity, inclusion, right not just best]
 draft: false
