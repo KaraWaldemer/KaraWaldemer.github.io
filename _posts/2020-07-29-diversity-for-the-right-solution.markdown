@@ -1,5 +1,5 @@
 ---
-title: Diversity is Key: Build the right thing, don't just build the thing right
+title: "Diversity is Key: Build the right thing, don't just build the thing right"
 date: '2020-07-29 17:00:00'
 categories: []
 layout: post
